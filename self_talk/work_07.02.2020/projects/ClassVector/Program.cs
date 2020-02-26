@@ -15,8 +15,10 @@ namespace ConsoleApp1
             Console.WriteLine($"Длина 1 вектора: {vector1.VectorLength}");
             Console.WriteLine($"Длина 2 вектора: {vector2.VectorLength}");
 
-            Console.WriteLine($"Скалярное произведение: {vector1.ScalarProduct(vector2)}");
-            Console.WriteLine($"Векторное произведение: {(vector1.VectorProduct(vector2)).ToString()}");
+            Console.WriteLine($"Скалярное произведение: " +
+                              $"{vector1.ScalarProduct(vector2)}");
+            Console.WriteLine($"Векторное произведение: " +
+                              $"{vector1.VectorProduct(vector2)}");
         }
     }
 }
